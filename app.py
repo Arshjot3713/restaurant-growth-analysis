@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 st.title("Restaurant Growth Potential Analysis")
 st.write("This project analyzes restaurant performance using business analytics.")
-df = pd.read_csv("Final_Restaurant_Analysis.csv")
+df = pd.read_csv("data.csv")
 st.subheader("Dataset Preview")
 st.dataframe(df.head())
 st.subheader("Dataset Summary")
